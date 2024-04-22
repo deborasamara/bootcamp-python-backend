@@ -1,0 +1,17 @@
+(mostrar status)
+$ git status
+
+(criar readme vazio)
+$ touch README.md
+
+(mostrar histórico de commits)
+$ git log
+
+(criando arquivo vazio apenas para o DIR aparecer no git status)
+$ git touch diretorio/.gitkeep
+
+(trazer pasta para gitignore)
+$ echo resumos/ > .gitignore
+
+(remover pasta do gitignore deixando vazio)
+$ echo > .gitgnore

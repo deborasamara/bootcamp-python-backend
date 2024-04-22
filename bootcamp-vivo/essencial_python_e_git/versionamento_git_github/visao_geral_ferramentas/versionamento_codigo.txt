@@ -1,0 +1,12 @@
+"""   
+tipos
+- centralizado (cvs)
+-- um servidor responsável pelas versões
+-- precisa de conexão com o servidor
+
+- distribuído (git, mercurial)
+-- versões duplicadas localmente, há cópias. 
+-- cada clone é como um backup
+-- dá pra trabalhar sem conexão
+
+"""
