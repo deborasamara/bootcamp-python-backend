@@ -1,0 +1,34 @@
+Trabalhando com branches
+-> Ramificação do projeto sem afetar a branch principal
+
+(prática de branch)
+
+$ git log 
+
+muda para branch de teste
+$ git checkout -b teste 
+
+mudar para branch main
+$ git checkout main
+
+mostrar o último commit de cada branch
+$ git branch -v
+
+mesclar duas branches
+estando na branch main
+$ git merge teste
+
+listar branches
+$ git branch  
+
+excluir branch teste
+$ git branch -d teste  
+
+--------------------
+conflitos de merge  
+
+baixar alterações
+$ git pull 
+
+enviar  
+$ git push origin main

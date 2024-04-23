@@ -1,0 +1,17 @@
+"""   
+Sistema de controle de versão Distribuído
+
+Fluxo básico no git
+(importar a versão do servidor)
+git clone -> clona um repositório Git existente para um novo diretório (pasta) local
+
+(alterou localmente e deseja atualizar)
+git commit -> grava alterações no repositório (versão 2)
+
+antes de enviar as alterações, verificar se alguém já fez uma atualização no servidor
+
+git pull -> "puxa" as alterações do repositório remoto para o local (busca e mescla com o arquivo que você está trabalhando)
+
+git push -> "empurra" as alterações do repositório local para o remoto
+
+"""

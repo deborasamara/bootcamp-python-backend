@@ -1,0 +1,31 @@
+(você quer baixar as alterações do repositorio remoto mas ainda não quer mesclar com o local)
+$ git fetch origin main
+
+ver diferenças entre arquivos
+$ git diff main origin/main
+
+se você decidiu mesclar
+$ git merge origin/main
+
+--------------------------
+Você quer clonar um repositorio com várias branches mas só quer clonar apenas uma  
+$ git clone url --branch nome_da_branch --single-branch
+
+
+Você tá trabalhando em uma branch localmente e modifica algo, mas não quer que essa modificação vá junto para o remoto
+arquiva a moficação
+$ git stash 
+
+------
+lista a modificação arquivada
+$ git stash list
+
+criar outra branch e ser levado para ela
+$ git checkout -b branch-2
+
+caso queira trazer as modificações para nossa outra branch
+-> $ git stash pop
+ou
+-> $ git stash apply
+
+

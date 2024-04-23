@@ -1,0 +1,6 @@
+"""   
+Git -> sistema de controle de versão distribuído. atua na parte do gerenciamento no banco de versões
+
+Github -> plataforma de hospedagem de código. servidor que hospeda o código
+
+"""

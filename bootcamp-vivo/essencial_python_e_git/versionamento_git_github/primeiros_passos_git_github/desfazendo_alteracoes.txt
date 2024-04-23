@@ -1,0 +1,34 @@
+(inicializando o git sem querer e removendo .git da pasta)
+inicia git
+$ git init
+
+remove arquivo git
+$ rm -rf .git
+
+(Se você quer voltar ao último estado de um arquivo)
+$ git restore nome_do_arquivo
+
+(como alterar a mensagem do último commit)
+forma 1:
+$ git commit --amend -m "mensagem"
+
+forma 2: abrindo editor
+$ git commit --amend
+apertar 'i' para inserir a mensagem e para sair apertar 'esc', escrever ":wd" e dar enter
+
+(se você quer desfazer o último commit)
+
+$ git reset --soft código_hash_do_commit
+
+$ git reset --mixed código_hash__do_commit
+
+$ git reset --hard código_hash_do_commit
+
+(ver histórico de commits)
+$ git log
+
+(ver histórico mais detalhado)
+$ git reflog
+
+
+

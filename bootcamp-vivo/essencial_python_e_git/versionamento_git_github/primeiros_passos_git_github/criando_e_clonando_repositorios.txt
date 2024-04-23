@@ -1,0 +1,25 @@
+Existem duas formas de ter um repositorio git na máquina local>
+-> transformando um repositorio local sem controle de versão em um repositorio git
+-- $ git init (uso)
+----------------------------------
+(cria diretório)
+$ mkdir nome_diretorio
+
+(inicializa)
+$ git init  
+
+(clonando repositório com nome diferente)
+$ git clone httpslink nome_que_voce_quer
+
+(se você quiser ver os repositorios remotos ao qual uma pasta está vinculada)
+$ git remote -v
+
+-- para vincular um repositorio local com o remoto:
+$ git remote add origin link_do_repositorio
+
+
+----------------------------------
+-> clonando um repositorio existente
+-- $ git clone (uso)
+
+

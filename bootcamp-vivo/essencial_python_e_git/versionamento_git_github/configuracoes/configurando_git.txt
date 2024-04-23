@@ -1,0 +1,10 @@
+"""  
+-- global - config no user
+-- system - sistema windows
+-- repositorio especifico
+
+
+ (alterando a branch master para main)
+ $ git config --global init.defaultBranch main
+
+"""

@@ -1,0 +1,26 @@
+"""  
+o git não precisa do github para fazer versionamento
+
+$ git clone linkdohttps
+
+-> vai pedir o nome de usuário
+-> usar a senha do token(não usa mais a senha do git)
+
+-> gerar um token no github e usar para acesso (ficará salvo nas credenciais da máquina)
+
+(salvar temporariamente no cache )
+$ git config credentials.helper cache
+
+(deixar salvo mesmo na máquina)
+$ git config credentials.helper store
+
+(mostrar onde está salvo as credenciais)
+$ git config --global credential.helper
+
+(onde o git salvou as definições)
+$ git config --global --show-origin credentials.helper
+
+(mostrar o que há no arquivo)
+$ cat .gitconfig (considerá que já está na mesma pasta)
+
+"""

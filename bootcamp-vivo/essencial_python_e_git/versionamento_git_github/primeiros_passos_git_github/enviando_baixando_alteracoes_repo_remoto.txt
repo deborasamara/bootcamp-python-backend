@@ -1,0 +1,25 @@
+
+(configurando pasta local antes de fazer um push)
+$ git status  
+
+$ git add . 
+
+$ git status 
+
+$ git commit -m "adicionar diretorio de resumos de aulas"
+
+$ git log  
+
+(enviar para pasta do github)
+$ git remote add origin link
+
+$ git push -u origin main
+
+
+(trazer alterações do repositorio remoto para local)
+traz alterações e mescla com o que temos
+$ git pull 
+
+(atalho ponto)
+. + win
+abre editor do github
